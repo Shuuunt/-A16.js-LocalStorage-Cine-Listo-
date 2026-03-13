@@ -105,3 +105,20 @@ select:focus, input:focus, button:focus {
 .currency.error small {
     visibility:visible;
 }
+
+/* Rotación de Imagen */
+
+
+/* La parte de como hacer que una imagen rote de forma infinita le pregunte a chatgpt como se hacía */
+.Imagen.giro {
+  animation: girar 1s linear infinite;
+}
+
+@keyframes girar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
